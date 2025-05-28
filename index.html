@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interaktyvūs žemėlapiai</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="https://unpkg.com/maplibre-gl@3.4.0/dist/maplibre-gl.js"></script>
+    <link
+      href="https://unpkg.com/maplibre-gl@3.4.0/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <nav class="nav-left">
+        <a href="#" class="logo">
+          <img src="assets/vuLogo.png" alt="Logo" />
+        </a>
+        <a href="#about">Aprašymas</a>
+        <a href="#maps">Žemėlapiai</a>
+        <a href="pages/contacts.html">Kontaktai</a>
+      </nav>
+    </header>
+
+    <section class="overlay-container"> 
+  <img src="assets/image1.jpg" alt="thumbnail" class="image" />
+  <div class="overlay-text-wrapper">
+    <div class="overlay-text">5 žemėlapiai - 1 erdvė</div>
+    <div class="overlay-subtext">Mano sukurti interaktyvūs žemėlapiai</div>
+  </div>
+</section>
+
+    <section id="about" class="about-section">
+      <div class="about-image">
+        <img src="assets/image2.jpeg" alt="Mano nuotrauka" />
+      </div>
+      <div class="about-text">
+        <h1>Apie mane</h1>
+        <p>
+             Esu Rugilė Jančauskaitė, kartografijos ir GIS 3 kurso studentė. Laisvalaikiu ne tik dirbu ir mokausi, bet ir mėgstu gaminti maistą - man patinka eksperimentuoti ir išgauti naujus skonius.
+Taip pat mėgstu keliauti, labiausiai su kemperiu po Lietuvą. Patinka sustoti kur nors prie ežero, pasivaikščioti po mišką bei stebėti paukščius. Tokios išvykos leidžia pažinti Lietuvą kitomis akimis.
+Kiekvienas žemėlapis šiame puslapyje sukurtas kaip nedidelis pasakojimas - apie duomenis, vietas ir tai, kaip visa tai galima parodyti vizualiai. 
+        </p>
+
+        <a href="pages/contacts.html" class="btn-contact">Susisiekite</a>
+      </div>
+    </section>
+
+    <section id="maps">
+      <div class="card-container">
+        <div class="card">
+          <div class="card-thumbnail">
+            <img src="assets/1praktinis_1.png" alt="Map thumbnail" />
+          </div>
+          <div class="card-content">
+            <div class="card-title">Statybų leidimų duomenys</div>
+            <div class="card-description">
+              Analizė ir pasiskirstymas Verkių seniūnijoje.
+
+
+              
+            </div>
+            <a href="1_praktinis/map_1.html" class="card-button"
+              >1 žemėlapis</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-thumbnail">
+            <img src="assets/1praktinis_2.png" alt="Map thumbnail" />
+          </div>
+          <div class="card-content">
+            <div class="card-title">Gyventojų tankis užstatytoje teritorijoje</div>
+            <div class="card-description">
+              Užstatyta teritorija 3D erdvėje.
+            </div>
+            <a href="1_praktinis/map_2.html" class="card-button"
+              >2 žemėlapis</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-thumbnail">
+            <img src="assets/1praktinis_3.png" alt="Map thumbnail" />
+          </div>
+          <div class="card-content">
+            <div class="card-title">Statybų leidimų registravimo datos</div>
+            <div class="card-description">
+              Pavaizduota kada statybų leidimai buvo užregistruoti.
+            </div>
+            <a href="1_praktinis/map_3.html" class="card-button"
+              >3 žemėlapis</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-thumbnail">
+            <img src="assets/2praktinis.png" alt="Map thumbnail" />
+          </div>
+          <div class="card-content">
+            <div class="card-title">Statybų leidimų pasiskirstymas</div>
+            <div class="card-description">
+              Palyginimas su STVK duomenimis Verkių seniūnijoje.
+            </div>
+            <a href="2_praktinis/index.html" class="card-button"
+              >4 žemėlapis</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-thumbnail">
+            <img src="assets/3praktinis.png" alt="Map thumbnail" />
+          </div>
+          <div class="card-content">
+            <div class="card-title">Miesto saugumo gerinimo registravimas</div>
+            <div class="card-description">
+              Čia galite pranešti apie pastebėtą problemą.
+            </div>
+            <a href="3_praktinis/index.html" class="card-button"
+              >5 žemėlapis</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Duomenų šaltiniai</h3>
+          <ul>
+            <li><a href="https://shorturl.at/vYvQJ">STVK</a></li>
+            <li><a href="https://www.ssva.lt/cms/atviri-duomenys">SSVA</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Socialiniai tinklai</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/rugilejan/rugilejan.github.io"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/rugilė-jančauskaitė-9a2b092b9/"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p id="year">
+          &copy; <span id="current-year"></span> Interaktyvūs žemėlapiai
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
